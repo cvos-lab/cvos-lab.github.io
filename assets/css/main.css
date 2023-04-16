@@ -149,9 +149,14 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h3 {
 		color: #3e3e3e;
 		margin: 0 0 0.75em 0;
+	}
+
+	h1, h2, h4, h5, h6 {
+		color: #3e3e3e;
+		margin: 0 0 0 0;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -189,7 +194,7 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-	}
+	}	
 
 	hr {
 		border: 0;
